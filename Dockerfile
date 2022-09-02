@@ -15,7 +15,7 @@
 # Docker file to build phyre on a clean conda.
 # Usage:
 # docker build -t phyre -f Dockerfile ./ && docker run -i -t -p 30303:30303 phyre
-FROM ubuntu:bionic-20190612
+FROM ubuntu:bionic-20220829
 
 ENV PATH /opt/conda/bin:$PATH
 ENV PATH /opt/conda/envs/phyre/bin:$PATH
